@@ -6,7 +6,6 @@ public:
      * @return: The sum of a and b
      */
     int aplusb(int a, int b) {
-        // write your code here, try to do it without arithmetic operators.
         while (b) {
             int t = a;
             a ^= b;
