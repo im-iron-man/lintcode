@@ -1,9 +1,9 @@
 class Solution {
 public:
     /*
-     * param k : As description.
-     * param n : As description.
-     * return: How many k's between 0 and n.
+     * @param k : As description
+     * @param n : As description
+     * @return: How many k's between 0 and n
      */
     int digitCounts(int k, int n) {
         int count = 0;
@@ -11,8 +11,7 @@ public:
         for (int i = 1; i < n+1; ++i) {
             int j = i;
             while (j) {
-                if (j % 10 == k)
-                    ++count;
+                if (j % 10 == k) ++count;
                 j /= 10;
             }
         }
