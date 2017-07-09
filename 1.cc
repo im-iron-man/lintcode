@@ -4,7 +4,7 @@ public:
      * @param a: The first integer
      * @param b: The second integer
      * @return: The sum of a and b
-	 * @solution: http://blog.csdn.net/zhongjiekangping/article/details/6855864
+     * @solution: http://blog.csdn.net/zhongjiekangping/article/details/6855864
      */
     int aplusb(int a, int b) {
         while (b) {
