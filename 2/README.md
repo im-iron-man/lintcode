@@ -1,1 +1,0 @@
-- [求N!末尾的0的个数（找规律+递归）](http://blog.csdn.net/qq_16255321/article/details/37994015)
